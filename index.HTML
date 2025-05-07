@@ -274,17 +274,17 @@
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me</span></h2>
   
-    <form action="#">
+    <form action="" method="post">
       <div class="input_box">
-        <input type="text" placeholder="Full Name" required>
-        <input type="email" placeholder="Email Address" required>
+        <input type="text" placeholder="Full Name" name="name" required>
+        <input type="email" placeholder="Email Address" name="email" required>
       </div>
       <div class="input_box">
-        <input type="tel" placeholder="Mobile Number" required>
-        <input type="text" placeholder="Email Subject" required>
+        <input type="tel" placeholder="Mobile Number" name="number" required>
+        <input type="text" placeholder="Email Subject" name="subject" required>
       </div>
-      <textarea name="" rows="8" placeholder="Your Message" required></textarea>
-      <input type="submit" value="Send Message" class="btn" style="background-color: #191f36; color: #fff;">
+      <textarea name="" rows="8" placeholder="Your Message" name="message" required></textarea>
+      <input type="submit" value="Send Message" name="submit" class="btn" style="background-color: #191f36; color: #fff;">
     </form>
   </section>
 
