@@ -11,7 +11,7 @@
           
 
     $insert = "INSERT INTO contact_responses VALUES('$name','$email','$number','$subject','$message')";
-    $execute = mysqli_execute_query($connect, $insert);
+    $execute = mysqli_query($connect, $insert);
     }
 
 if ($execute) {
