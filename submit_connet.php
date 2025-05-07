@@ -14,4 +14,10 @@
     $execute = mysqli_execute_query($connect, $insert);
     }
 
+if ($execute) {
+    echo "<script> alert('data insert in database') </script>";
+}else{
+    echo "<script> alert('error') </script>";
+}
+
 ?>
