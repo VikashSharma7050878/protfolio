@@ -317,9 +317,9 @@
   }
 
   if ($execute) {
-    echo "<script> alert('data insert in database') </script>";
+    echo " <script> alert('succesfully insert your data') </script> ";
   } else {
-    echo "<script> alert('error') </script>";
+    echo "<script> alert('Error!, invaid data') </script>";
   }
 
   ?>

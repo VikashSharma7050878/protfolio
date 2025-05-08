@@ -134,6 +134,7 @@
                 <td>{$row[2]}</td>
                 <td>{$row[3]}</td>
                 <td>{$row[4]}</td>
+                <td><a href='delete.php?email={$row['email']}'> <input type='remove' value='Remove' name='submit' class='btn'></td>
             </tr>
             ";
         }
